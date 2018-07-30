@@ -55,9 +55,7 @@ source:
       required: true
       type: string
     name:
-      description: >
-        This parameter allows you to override the name of your
-        `image_processing` entity.
+      description: This parameter allows you to override the name of your `image_processing` entity.
       required: false
       type: string
 {% endconfiguration %}

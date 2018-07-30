@@ -27,7 +27,7 @@ Direct connection via serial port:
     name: kwb
     device: "/dev/ttyUSB0"
     type: serial
-    raw: false
+    raw: False
 ```
 
 Telnet terminal server with a serial-ethernet converter:
@@ -39,7 +39,7 @@ Telnet terminal server with a serial-ethernet converter:
     host: <ip>
     port: 23
     type: tcp
-    raw: false
+    raw: False
 ```
 
 Configuration variables:

@@ -33,9 +33,7 @@ name:
   type: string
   default: yr
 forecast:
-  description: >
-    If you want to get forecast data instead of the current weather data,
-    set this to the number of hours that you want to look into the future.
+  description: If you want to get forecast data instead of the current weather data, set this to the number of hours that you want to look into the future.
   required: false
   type: int
 monitored_conditions:
@@ -61,9 +59,7 @@ monitored_conditions:
     windSpeed:
       description: The wind speed.
     windDirection:
-      description: >
-        Where the wind is coming from in degrees,
-        with true north at 0° and progressing clockwise.
+      description: Where the wind is coming from in degrees, with true north at 0° and progressing clockwise.
     cloudiness:
       description: The cloudiness.
     lowClouds:

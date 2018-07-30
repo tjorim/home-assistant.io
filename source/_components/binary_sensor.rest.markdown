@@ -13,7 +13,6 @@ ha_release: "0.10"
 ha_iot_class: "Local Polling"
 ---
 
-
 The `rest` binary sensor platform is consuming a given endpoint which is exposed
 by a
 [RESTful API](https://en.wikipedia.org/wiki/Representational_state_transfer)

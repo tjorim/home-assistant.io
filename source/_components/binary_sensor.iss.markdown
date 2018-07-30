@@ -43,7 +43,6 @@ If you set `show_on_map: true` then the location attributes are named `latitude`
 The default name of the location attributes is `lat` and `long` to avoid showing them on the map.
 </p>
 
-
 ### {% linkable_title Show position on map with camera platform %}
 
 The [generic camera platform](/components/camera.mjpeg/) offers

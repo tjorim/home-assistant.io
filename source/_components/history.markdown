@@ -133,7 +133,7 @@ you can set the flag `use_include_order` to true.
 ```yaml
 # Example configuration.yaml entry using specified entity display order
 history:
-  use_include_order: true
+  use_include_order: True
   include:
     entities:
       - sun.sun

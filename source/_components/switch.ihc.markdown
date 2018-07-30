@@ -29,7 +29,7 @@ To manually configure IHC switches insert this section in your configuration:
 ```yaml
 switch:
     - platform: ihc
-    auto_setup: true
+    auto_setup: True
     switches:
         - id: 12345
           name: myswitch

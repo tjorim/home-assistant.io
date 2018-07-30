@@ -36,7 +36,7 @@ sensor:
 
 Configuration variables:
 
-- **automatic_add** (*Optional*): Automatically add new/unconfigured devices to HA if detected (default: `true`).
+- **automatic_add** (*Optional*): Automatically add new/unconfigured devices to HA if detected (default: True).
 - **devices**  (*Optional*): A list of devices with their name to use in the frontend.
 
 Device configuration variables:
@@ -93,3 +93,4 @@ Sensors are added automatically when the RFLink gateway intercepts a wireless co
 ### {% linkable_title Device support %}
 
 See [device support](/components/rflink/#device-support)
+

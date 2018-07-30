@@ -21,12 +21,9 @@ To integrate this into Home Assistant, add the following section to your `config
 updater:
 ```
 
-If you choose not to share any information when checking for updates,
-you can add `reporting: false`.
+If you choose not to share any information when checking for updates, you can add `reporting: False`.
 
-It is possible to report the components that you are using to the Home Assistant
-developers. This will help them focus on improving the popular ones.
-To enable this option, you have to add `include_used_components: true`.
+It is possible to report the components that you are using to the Home Assistant developers. This will help them focus on improving the popular ones. To enable this option, you have to add `include_used_components: True`. 
 
 ```json
 "components": [
@@ -59,3 +56,4 @@ automation:
     data:
       message: 'Update for Home Assistant is available.'
 ```
+

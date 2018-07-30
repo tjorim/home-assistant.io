@@ -76,7 +76,7 @@ The keyword `holiday` is used for public
 holidays identified by the holidays module.
 
 <p class='note warning'>
-If you use the sensor for Norway (`NO`) you need to wrap `NO`in quotes or write the name in full.
+If you use the sensor for Norway (`NO`) you need to wrap `NO` in quotes or write the name in full.
 Otherwise the value is evaluated as `false`.
 If you use the sensor for Canada (`CA`) with Ontario (`ON`) as `province:` then you need to wrap `ON` in quotes.
 Otherwise the value is evaluated as `true` (check the YAML documentation for further details) and the sensor will not work.

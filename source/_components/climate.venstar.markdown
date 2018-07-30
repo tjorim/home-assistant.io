@@ -61,7 +61,7 @@ ssl:
   description: Whether to use SSL or not when communicating.
   required: false
   type: boolean
-  default: false
+  default: False
 timeout:
   description: Number of seconds for API timeout.
   required: false
@@ -81,9 +81,9 @@ humidifier:
 climate:
   - platform: venstar
     host: IP_OR_HOSTNAME_OF_THERMOSTAT
-    ssl: true
+    ssl: True/False
     username: OPTIONAL_AUTH_USER_HERE
     password: OPTIONAL_AUTH_PASS_HERE
     timeout: 5
-    humidifier: false
+    humidifier: False
 ```
