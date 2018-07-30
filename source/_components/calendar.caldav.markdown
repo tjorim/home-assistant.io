@@ -188,5 +188,4 @@ calendar:
   - condition: state
     entity_id: calendar.work_holiday
     state: 'off'
-
 ```
